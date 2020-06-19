@@ -8,8 +8,11 @@ This file contains Florida education information by district from the Florida De
 The columns in the dataset are in the table below.
 
 COLUMN NAME               DESCRIPTION
+
 DisNum                    FL district number
+
 DisName                   FL district name 
+
 Attendance                Student's average present percentage 
 TotGradRate               Total federal graduation rate
 LunchGradRate             Graduation rate of students on free/reduced lunch plans 
