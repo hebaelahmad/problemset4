@@ -1,0 +1,30 @@
+Normalize the Data # Extra Credit
+
+The data will be in 3 tables: Districts, Students, Teachers
+
+Table 1: Counties
+
+Fields: DEPCODE(Integer) | County(String) | Tpositive(Integer) 
+
+Table 2: CasesByAge
+
+Fields: DEPCODE(Integer) | 0_4(Integer) | 5_14(Integer) | 15_24(Integer) | 25_34(Integer) | 35_44(Integer) | 55_64(Integer)
+
+Table 3: SexMF
+
+Fields: DEPCODE(Integer, foreign key) | PUIFemale(Integer) | PUIMale(Integer)
+
+Table 4: TotalTests
+
+Fields: DEPCODE(Integer, foreign key) | Tpositive_6.16(Integer) | TNegative(Integer) | TPending(Integer)
+
+Description:
+
+These tables were created to satisfy the 3 normal forms:
+
+First normal form:
+Table 2 is created to show age ranges so the columns do not repeat like in the original dataset
+
+Second normal form: each row's data is dependent only on the primary key- DEPCODE
+
+Third normal form: we can't determine the value in a column from any field other than the key 
